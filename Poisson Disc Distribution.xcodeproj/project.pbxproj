@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BB3A42021DC9ACD00F0CE45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A41F21DC9ACD00F0CE45 /* AppDelegate.m */; };
+		7BB3A42321DC9ACD00F0CE45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A42221DC9ACD00F0CE45 /* ViewController.m */; };
+		7BB3A42621DC9ACD00F0CE45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB3A42421DC9ACD00F0CE45 /* Main.storyboard */; };
+		7BB3A42821DC9ACE00F0CE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB3A42721DC9ACE00F0CE45 /* Assets.xcassets */; };
+		7BB3A42B21DC9ACE00F0CE45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB3A42921DC9ACE00F0CE45 /* LaunchScreen.storyboard */; };
+		7BB3A42E21DC9ACE00F0CE45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A42D21DC9ACE00F0CE45 /* main.m */; };
+		7BB3A43821DC9ACE00F0CE45 /* Poisson_Disc_DistributionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A43721DC9ACE00F0CE45 /* Poisson_Disc_DistributionTests.m */; };
+		7BB3A44321DC9ACE00F0CE45 /* Poisson_Disc_DistributionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A44221DC9ACE00F0CE45 /* Poisson_Disc_DistributionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB3A43421DC9ACE00F0CE45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB3A41321DC9ACD00F0CE45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB3A41A21DC9ACD00F0CE45;
+			remoteInfo = "Poisson Disc Distribution";
+		};
+		7BB3A43F21DC9ACE00F0CE45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB3A41321DC9ACD00F0CE45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB3A41A21DC9ACD00F0CE45;
+			remoteInfo = "Poisson Disc Distribution";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BB3A41B21DC9ACD00F0CE45 /* Poisson Disc Distribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poisson Disc Distribution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB3A41E21DC9ACD00F0CE45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BB3A41F21DC9ACD00F0CE45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BB3A42121DC9ACD00F0CE45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BB3A42221DC9ACD00F0CE45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BB3A42521DC9ACD00F0CE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BB3A42721DC9ACE00F0CE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BB3A42A21DC9ACE00F0CE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BB3A42C21DC9ACE00F0CE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB3A42D21DC9ACE00F0CE45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BB3A43321DC9ACE00F0CE45 /* Poisson Disc DistributionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poisson Disc DistributionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB3A43721DC9ACE00F0CE45 /* Poisson_Disc_DistributionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poisson_Disc_DistributionTests.m; sourceTree = "<group>"; };
+		7BB3A43921DC9ACE00F0CE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB3A43E21DC9ACE00F0CE45 /* Poisson Disc DistributionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poisson Disc DistributionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB3A44221DC9ACE00F0CE45 /* Poisson_Disc_DistributionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poisson_Disc_DistributionUITests.m; sourceTree = "<group>"; };
+		7BB3A44421DC9ACE00F0CE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB3A41821DC9ACD00F0CE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB3A43021DC9ACE00F0CE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB3A43B21DC9ACE00F0CE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB3A41221DC9ACD00F0CE45 = {
+			isa = PBXGroup;
+			children = (
+				7BB3A41D21DC9ACD00F0CE45 /* Poisson Disc Distribution */,
+				7BB3A43621DC9ACE00F0CE45 /* Poisson Disc DistributionTests */,
+				7BB3A44121DC9ACE00F0CE45 /* Poisson Disc DistributionUITests */,
+				7BB3A41C21DC9ACD00F0CE45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB3A41C21DC9ACD00F0CE45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB3A41B21DC9ACD00F0CE45 /* Poisson Disc Distribution.app */,
+				7BB3A43321DC9ACE00F0CE45 /* Poisson Disc DistributionTests.xctest */,
+				7BB3A43E21DC9ACE00F0CE45 /* Poisson Disc DistributionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB3A41D21DC9ACD00F0CE45 /* Poisson Disc Distribution */ = {
+			isa = PBXGroup;
+			children = (
+				7BB3A41E21DC9ACD00F0CE45 /* AppDelegate.h */,
+				7BB3A41F21DC9ACD00F0CE45 /* AppDelegate.m */,
+				7BB3A42121DC9ACD00F0CE45 /* ViewController.h */,
+				7BB3A42221DC9ACD00F0CE45 /* ViewController.m */,
+				7BB3A42421DC9ACD00F0CE45 /* Main.storyboard */,
+				7BB3A42721DC9ACE00F0CE45 /* Assets.xcassets */,
+				7BB3A42921DC9ACE00F0CE45 /* LaunchScreen.storyboard */,
+				7BB3A42C21DC9ACE00F0CE45 /* Info.plist */,
+				7BB3A42D21DC9ACE00F0CE45 /* main.m */,
+			);
+			path = "Poisson Disc Distribution";
+			sourceTree = "<group>";
+		};
+		7BB3A43621DC9ACE00F0CE45 /* Poisson Disc DistributionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB3A43721DC9ACE00F0CE45 /* Poisson_Disc_DistributionTests.m */,
+				7BB3A43921DC9ACE00F0CE45 /* Info.plist */,
+			);
+			path = "Poisson Disc DistributionTests";
+			sourceTree = "<group>";
+		};
+		7BB3A44121DC9ACE00F0CE45 /* Poisson Disc DistributionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB3A44221DC9ACE00F0CE45 /* Poisson_Disc_DistributionUITests.m */,
+				7BB3A44421DC9ACE00F0CE45 /* Info.plist */,
+			);
+			path = "Poisson Disc DistributionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB3A41A21DC9ACD00F0CE45 /* Poisson Disc Distribution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB3A44721DC9ACE00F0CE45 /* Build configuration list for PBXNativeTarget "Poisson Disc Distribution" */;
+			buildPhases = (
+				7BB3A41721DC9ACD00F0CE45 /* Sources */,
+				7BB3A41821DC9ACD00F0CE45 /* Frameworks */,
+				7BB3A41921DC9ACD00F0CE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poisson Disc Distribution";
+			productName = "Poisson Disc Distribution";
+			productReference = 7BB3A41B21DC9ACD00F0CE45 /* Poisson Disc Distribution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BB3A43221DC9ACE00F0CE45 /* Poisson Disc DistributionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB3A44A21DC9ACE00F0CE45 /* Build configuration list for PBXNativeTarget "Poisson Disc DistributionTests" */;
+			buildPhases = (
+				7BB3A42F21DC9ACE00F0CE45 /* Sources */,
+				7BB3A43021DC9ACE00F0CE45 /* Frameworks */,
+				7BB3A43121DC9ACE00F0CE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB3A43521DC9ACE00F0CE45 /* PBXTargetDependency */,
+			);
+			name = "Poisson Disc DistributionTests";
+			productName = "Poisson Disc DistributionTests";
+			productReference = 7BB3A43321DC9ACE00F0CE45 /* Poisson Disc DistributionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BB3A43D21DC9ACE00F0CE45 /* Poisson Disc DistributionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB3A44D21DC9ACE00F0CE45 /* Build configuration list for PBXNativeTarget "Poisson Disc DistributionUITests" */;
+			buildPhases = (
+				7BB3A43A21DC9ACE00F0CE45 /* Sources */,
+				7BB3A43B21DC9ACE00F0CE45 /* Frameworks */,
+				7BB3A43C21DC9ACE00F0CE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB3A44021DC9ACE00F0CE45 /* PBXTargetDependency */,
+			);
+			name = "Poisson Disc DistributionUITests";
+			productName = "Poisson Disc DistributionUITests";
+			productReference = 7BB3A43E21DC9ACE00F0CE45 /* Poisson Disc DistributionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB3A41321DC9ACD00F0CE45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Juan Je García";
+				TargetAttributes = {
+					7BB3A41A21DC9ACD00F0CE45 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7BB3A43221DC9ACE00F0CE45 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7BB3A41A21DC9ACD00F0CE45;
+					};
+					7BB3A43D21DC9ACE00F0CE45 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7BB3A41A21DC9ACD00F0CE45;
+					};
+				};
+			};
+			buildConfigurationList = 7BB3A41621DC9ACD00F0CE45 /* Build configuration list for PBXProject "Poisson Disc Distribution" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BB3A41221DC9ACD00F0CE45;
+			productRefGroup = 7BB3A41C21DC9ACD00F0CE45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB3A41A21DC9ACD00F0CE45 /* Poisson Disc Distribution */,
+				7BB3A43221DC9ACE00F0CE45 /* Poisson Disc DistributionTests */,
+				7BB3A43D21DC9ACE00F0CE45 /* Poisson Disc DistributionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB3A41921DC9ACD00F0CE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB3A42B21DC9ACE00F0CE45 /* LaunchScreen.storyboard in Resources */,
+				7BB3A42821DC9ACE00F0CE45 /* Assets.xcassets in Resources */,
+				7BB3A42621DC9ACD00F0CE45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB3A43121DC9ACE00F0CE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB3A43C21DC9ACE00F0CE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB3A41721DC9ACD00F0CE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB3A42321DC9ACD00F0CE45 /* ViewController.m in Sources */,
+				7BB3A42E21DC9ACE00F0CE45 /* main.m in Sources */,
+				7BB3A42021DC9ACD00F0CE45 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB3A42F21DC9ACE00F0CE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB3A43821DC9ACE00F0CE45 /* Poisson_Disc_DistributionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB3A43A21DC9ACE00F0CE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB3A44321DC9ACE00F0CE45 /* Poisson_Disc_DistributionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB3A43521DC9ACE00F0CE45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB3A41A21DC9ACD00F0CE45 /* Poisson Disc Distribution */;
+			targetProxy = 7BB3A43421DC9ACE00F0CE45 /* PBXContainerItemProxy */;
+		};
+		7BB3A44021DC9ACE00F0CE45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB3A41A21DC9ACD00F0CE45 /* Poisson Disc Distribution */;
+			targetProxy = 7BB3A43F21DC9ACE00F0CE45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BB3A42421DC9ACD00F0CE45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB3A42521DC9ACD00F0CE45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BB3A42921DC9ACE00F0CE45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB3A42A21DC9ACE00F0CE45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BB3A44521DC9ACE00F0CE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BB3A44621DC9ACE00F0CE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB3A44821DC9ACE00F0CE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poisson Disc Distribution/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.juanje.Poisson-Disc-Distribution";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BB3A44921DC9ACE00F0CE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poisson Disc Distribution/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.juanje.Poisson-Disc-Distribution";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BB3A44B21DC9ACE00F0CE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poisson Disc DistributionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.juanje.Poisson-Disc-DistributionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poisson Disc Distribution.app/Poisson Disc Distribution";
+			};
+			name = Debug;
+		};
+		7BB3A44C21DC9ACE00F0CE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poisson Disc DistributionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.juanje.Poisson-Disc-DistributionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poisson Disc Distribution.app/Poisson Disc Distribution";
+			};
+			name = Release;
+		};
+		7BB3A44E21DC9ACE00F0CE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poisson Disc DistributionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.juanje.Poisson-Disc-DistributionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poisson Disc Distribution";
+			};
+			name = Debug;
+		};
+		7BB3A44F21DC9ACE00F0CE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poisson Disc DistributionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.juanje.Poisson-Disc-DistributionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poisson Disc Distribution";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB3A41621DC9ACD00F0CE45 /* Build configuration list for PBXProject "Poisson Disc Distribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB3A44521DC9ACE00F0CE45 /* Debug */,
+				7BB3A44621DC9ACE00F0CE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB3A44721DC9ACE00F0CE45 /* Build configuration list for PBXNativeTarget "Poisson Disc Distribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB3A44821DC9ACE00F0CE45 /* Debug */,
+				7BB3A44921DC9ACE00F0CE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB3A44A21DC9ACE00F0CE45 /* Build configuration list for PBXNativeTarget "Poisson Disc DistributionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB3A44B21DC9ACE00F0CE45 /* Debug */,
+				7BB3A44C21DC9ACE00F0CE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB3A44D21DC9ACE00F0CE45 /* Build configuration list for PBXNativeTarget "Poisson Disc DistributionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB3A44E21DC9ACE00F0CE45 /* Debug */,
+				7BB3A44F21DC9ACE00F0CE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB3A41321DC9ACD00F0CE45 /* Project object */;
+}
