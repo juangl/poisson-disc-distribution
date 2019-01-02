@@ -15,6 +15,9 @@
 		7BB3A42E21DC9ACE00F0CE45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A42D21DC9ACE00F0CE45 /* main.m */; };
 		7BB3A43821DC9ACE00F0CE45 /* Poisson_Disc_DistributionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A43721DC9ACE00F0CE45 /* Poisson_Disc_DistributionTests.m */; };
 		7BB3A44321DC9ACE00F0CE45 /* Poisson_Disc_DistributionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A44221DC9ACE00F0CE45 /* Poisson_Disc_DistributionUITests.m */; };
+		7BB3A45221DC9C0300F0CE45 /* DiskSampler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A45121DC9C0300F0CE45 /* DiskSampler.mm */; };
+		7BB3A45521DC9D2900F0CE45 /* GraphPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A45421DC9D2900F0CE45 /* GraphPoint.m */; };
+		7BB3A45821DC9E3700F0CE45 /* DrawView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A45721DC9E3700F0CE45 /* DrawView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		7BB3A43E21DC9ACE00F0CE45 /* Poisson Disc DistributionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poisson Disc DistributionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB3A44221DC9ACE00F0CE45 /* Poisson_Disc_DistributionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poisson_Disc_DistributionUITests.m; sourceTree = "<group>"; };
 		7BB3A44421DC9ACE00F0CE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB3A45021DC9C0300F0CE45 /* DiskSampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiskSampler.h; sourceTree = "<group>"; };
+		7BB3A45121DC9C0300F0CE45 /* DiskSampler.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DiskSampler.mm; sourceTree = "<group>"; };
+		7BB3A45321DC9D2900F0CE45 /* GraphPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphPoint.h; sourceTree = "<group>"; };
+		7BB3A45421DC9D2900F0CE45 /* GraphPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphPoint.m; sourceTree = "<group>"; };
+		7BB3A45621DC9E3700F0CE45 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		7BB3A45721DC9E3700F0CE45 /* DrawView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DrawView.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				7BB3A42921DC9ACE00F0CE45 /* LaunchScreen.storyboard */,
 				7BB3A42C21DC9ACE00F0CE45 /* Info.plist */,
 				7BB3A42D21DC9ACE00F0CE45 /* main.m */,
+				7BB3A45021DC9C0300F0CE45 /* DiskSampler.h */,
+				7BB3A45121DC9C0300F0CE45 /* DiskSampler.mm */,
+				7BB3A45321DC9D2900F0CE45 /* GraphPoint.h */,
+				7BB3A45421DC9D2900F0CE45 /* GraphPoint.m */,
+				7BB3A45621DC9E3700F0CE45 /* DrawView.h */,
+				7BB3A45721DC9E3700F0CE45 /* DrawView.mm */,
 			);
 			path = "Poisson Disc Distribution";
 			sourceTree = "<group>";
@@ -264,7 +279,10 @@
 			files = (
 				7BB3A42321DC9ACD00F0CE45 /* ViewController.m in Sources */,
 				7BB3A42E21DC9ACE00F0CE45 /* main.m in Sources */,
+				7BB3A45821DC9E3700F0CE45 /* DrawView.mm in Sources */,
 				7BB3A42021DC9ACD00F0CE45 /* AppDelegate.m in Sources */,
+				7BB3A45521DC9D2900F0CE45 /* GraphPoint.m in Sources */,
+				7BB3A45221DC9C0300F0CE45 /* DiskSampler.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

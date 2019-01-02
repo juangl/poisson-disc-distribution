@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "DrawView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet DrawView *drawView;
 
 @end
 
@@ -19,5 +21,8 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)reDraw:(id)sender {
+    [[self drawView] newDraw];
+}
 
 @end

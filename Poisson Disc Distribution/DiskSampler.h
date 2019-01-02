@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GraphPoint.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DiskSampler : NSObject
-
+-(id)initWithDimensions:(NSInteger)width height:(NSInteger)height radius:(NSInteger)radius;
+-(GraphPoint *)getDisc;
+-(void)reset;
 @end
 
 NS_ASSUME_NONNULL_END

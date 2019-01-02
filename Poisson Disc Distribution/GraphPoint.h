@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GraphPoint : NSObject
-
+- (instancetype)initWithX:(NSUInteger)x y:(NSUInteger)y;
+@property NSInteger x;
+@property NSInteger y;
 @end
 
 NS_ASSUME_NONNULL_END

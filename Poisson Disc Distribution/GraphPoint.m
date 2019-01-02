@@ -9,5 +9,13 @@
 #import "GraphPoint.h"
 
 @implementation GraphPoint
+- (instancetype)initWithX:(NSUInteger)x y:(NSUInteger)y {
+    self = [super init];
+    if (self) {
+        self.x = x;
+        self.y = y;
+    }
+    return self;
+}
 
 @end
